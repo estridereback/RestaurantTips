@@ -18,7 +18,7 @@ include('processes/session.php');
   </header>
   <div id="content">
 
-    <section id="mainContent"> 
+    <section id="commentsSection"> 
       <h1>Basilico</h1>
       <h3>An Italian Restaurant</h3>
       <div id="bannerImage"><img src="assets/img/italian.jpg" alt=""/></div>
@@ -49,7 +49,7 @@ include('processes/session.php');
 
 				if ($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) { 
-						 echo "<p><h3>Title: </h3>". $row["title"]. " <h3> Tip: </h3>". $row["content"]. "<br> </p>";
+						 echo "<p><h3>Tip: ". $row["title"]. "</h3> <h2> ". $row["content"]. "</h2><br> </p>";
 					 }
 				}
 				$connection->close();
