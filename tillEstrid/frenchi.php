@@ -6,7 +6,7 @@ include('processes/session.php');
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BlogPost template by Adobe Dreamweaver CC</title>
+<title>Frenchi</title>
 <link href="assets/css/start.css" rel="stylesheet" type="text/css">
 </head>
 
