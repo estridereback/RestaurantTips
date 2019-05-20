@@ -50,10 +50,11 @@ include('processes/session.php');
 				$activeRestaurant = "Frenchi";
 				$sql = "SELECT title, content, userid FROM Tips, Restaurants WHERE Tips.restaurantid = Restaurants.id AND Restaurants.name = '$activeRestaurant'";
 				$result = $connection->query($sql);
+		 		$user = $_SESSION['login_user'];
 
 				if ($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) { 
-						 echo "<p><h3>Tip: ". $row["title"]. "</h3> <h2> ". $row["content"]. "</h2><br> </p>";
+						 echo "<p><h3>Tip: "". $row["title"]. "</h3><h4>Posted by: ".$user."</h4> <h2> ".  $row["content"]. "</h2><br> </p>";
 					 }
 				}
 				$connection->close();
