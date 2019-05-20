@@ -15,20 +15,15 @@ include('processes/session.php');
  
 			<header> 
 				<div id="logo">Logo</div>
-				<nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="#" title="Link">Log out</a> </nav>
+				<nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="loggedOut.php" title="Link">Log out</a> </nav>
 			</header>
   
   
-  <div id="content">
-    <div class="notOnDesktop"> 
-      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
-      <input type="text" placeholder="Search">
-    </div>
-    
+  <div id="content">    
 	<section id="mainContent"> 
 
 		<h1>Frenchi</h1>
-		<h3><!-- Tagline -->Restaurant, Bar & Café</h3>
+		<h3>Restaurant, Bar & Café</h3>
 		<div id="bannerImage"><img src="assets/img/frenchi.jpg" alt="picture of the restaurant"/></div>
 		<p> Frenchi is a restaurant that serves food inspired by the French and Asian kitchen. The restaurant is open from lunch to the late evening. 
 		You can enjoy a nice fika or a have a glass of wine on the outside dining area that's open during spring and summer. 
