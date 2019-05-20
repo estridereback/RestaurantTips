@@ -15,7 +15,7 @@ if(session_destroy())
 <div id="mainwrapper">
   <header> 
     <div id="logo">RestaurantTips</div>
-    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="#" title="Link">Log out</a> </nav>
+    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="loggedOut" title="Link">Log out</a> </nav>
   </header>
   <div id="content">
     <section id="mainContent"> 
