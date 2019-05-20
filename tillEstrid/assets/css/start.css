@@ -183,7 +183,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #999966;
+  background-color: #C0C0C0;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -192,6 +192,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #b2b28c;
+  background-color: #D3D3D3;
 }
 
