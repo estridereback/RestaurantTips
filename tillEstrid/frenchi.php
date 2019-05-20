@@ -3,39 +3,42 @@ include('processes/session.php');
 ?>
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Frenchi</title>
-<link href="assets/css/start.css" rel="stylesheet" type="text/css">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>frenchi</title>
+		<link href="assets/css/start.css" rel="stylesheet" type="text/css">
+	</head>
 
-<body>
-<div id="mainwrapper">
-  <header> 
-    <!--**************************************************************************
-    Header starts here. It contains Logo and 3 navigation links. 
-    ****************************************************************************-->
-    <div id="logo"><!-- <img src="logoImage.png" alt="sample logo"> --><!-- Company Logo text -->Logo</div>
-    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="loggedOut.php" title="Link">Log out</a> </nav>
-  </header>
+	<body>
+		<div id="mainwrapper">
+ 
+			<header> 
+				<div id="logo">Logo</div>
+				<nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="#" title="Link">Log out</a> </nav>
+			</header>
+  
+  
   <div id="content">
     <div class="notOnDesktop"> 
       <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
       <input type="text" placeholder="Search">
     </div>
-    <section id="mainContent"> 
-      <!--************************************************************************
-    Main Blog content starts here
-    ****************************************************************************-->
-      <h1><!-- Blog title -->Frenchi</h1>
-      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
-      <div id="bannerImage"><img src="assets/img/startbild.jpg" alt=""/></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-      <aside id="authorInfo"> 
-        <!-- The author information is contained here -->
-        <h2>Tips</h2>
+    
+	<section id="mainContent"> 
+
+		<h1>Frenchi</h1>
+		<h3><!-- Tagline -->Restaurant, Bar & Café</h3>
+		<div id="bannerImage"><img src="assets/img/frenchi.jpg" alt="picture of the restaurant"/></div>
+		<p> Frenchi is a restaurant that serves food inspired by the French and Asian kitchen. The restaurant is open from lunch to the late evening. 
+		You can enjoy a nice fika or a have a glass of wine on the outside dining area that's open during spring and summer. 
+		Otherwise the dining area is large with seating for a party over 40 persons. The restaurant is located in the centre of Uppsala.</p>
+
+		<p> Visit the home page for the restaurant on this link here, <a href="https://frenchi.se/">Frenchi.</a> </p>
+	 
+	 <aside id="commentsSection"> 
+        
+        <h1>Tips</h1>
  					<?php
 				$uname = "dbtrain_1036";
 				$pass = "xotlno";
@@ -55,7 +58,7 @@ include('processes/session.php');
 
 				if ($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) { 
-						 echo "<p><h3>Title: </h3>". $row["title"]. " <h3> Tip: </h3>". $row["content"]. "<br> </p>";
+						 echo "<p><h3>Tip: ". $row["title"]. "</h3> <h2> ". $row["content"]. "</h2><br> </p>";
 					 }
 				}
 				$connection->close();
@@ -63,9 +66,7 @@ include('processes/session.php');
 	</aside>
     </section>
     <section id="sidebar"> 
-      <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
-    ****************************************************************************-->
+  
       <input type="text" placeholder="Search">
       <div id="adimage"><img src="assets/img/litenbannan.png" alt=""/></div>
       <nav>
@@ -75,12 +76,12 @@ include('processes/session.php');
           <li><a href="frenchi.php" title="Link">Frenchi</a></li>
           <li><a href="#" title="Link">Iberico</a></li>
           <li><a href="#" title="Link">Aaltos</a></li>
-          <li><a href="start.php" title="Link">Home</a></li>
+          <li><a href="#" title="Link">Contact us here</a></li>
         </ul>
       </nav>
     </section>
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --> copyright @ Group 2. All rights reserved</div>
+  <div id="footerbar"> copyright @ Group 2. All rights reserved</div>
 </div>
 </body>
 </html>
