@@ -194,4 +194,32 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #D3D3D3;
 }
+/* restaurant page*/
+a:link {
+    color: #929292;
+	text-decoration: none;
+}
+a:visited {
+    color: #929292;
+}
+a:hover {
+    color: #404040;
+}
+a:active {
+    color: black;
+}
+
+/*comments section*/
+#commentsSection h3 {
+	font-size: 20px;
+}
+#commentsSection h2 {
+	font-size: 15px;
+}
+#commentsSection h1 {
+	font-size: 30px;
+}
+#commentsSection p {
+	border-bottom: 1px solid #e1e1e1;
+}
 
