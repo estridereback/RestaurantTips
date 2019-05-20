@@ -16,7 +16,7 @@
 
 	$title = mysqli_real_escape_string($connection, $_POST["title"]);
 	$email = mysqli_real_escape_string($connection, $_POST["email"]);
-	$content = mysqli_real_escape_string($connection, $_POST["comment"]);
+	$content = mysqli_real_escape_string($connection, $_POST["tip"]);
 	$restaurant = mysqli_real_escape_string($connection, $_POST["restaurant"]);
 	
 	if(empty(trim($title)) !== true && empty(trim($email)) !== true && empty(trim($content)) !== true){//checks so the strings are not empty
