@@ -45,6 +45,7 @@ include('processes/session.php');
 				$activeRestaurant = "Basilico";
 				$sql = "SELECT title, content, userid FROM Tips, Restaurants WHERE Tips.restaurantid = Restaurants.id AND Restaurants.name = '$activeRestaurant'";
 				$result = $connection->query($sql);
+				$user = $_SESSION['login_user'];
 
 				if ($result->num_rows > 0) {
 					while($row = $result->fetch_assoc()) { 
