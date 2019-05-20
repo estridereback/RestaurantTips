@@ -18,7 +18,7 @@ include('processes/session.php');
   </header>
   <div id="content">
 
-    <section id="commentsSection"> 
+    <section id="mainContent"> 
       <h1>Basilico</h1>
       <h3>An Italian Restaurant</h3>
       <div id="bannerImage"><img src="assets/img/italian.jpg" alt=""/></div>
@@ -27,7 +27,7 @@ include('processes/session.php');
 		<p>They have the possibility to take up to 50 guests and can also provide catering on request. Visit the homepage for the restaurant
 		here: <a href="http://www.basilico.se/" title="Link">Basilico</a></p>
 		<p>Read the tips from others below:</p>
-		<aside id="authorInfo"> 
+		<aside id="commentsSection"> 
         <h2>Tips</h2>
 					<?php
 				$uname = "dbtrain_1036";
