@@ -26,7 +26,8 @@
 	
 		if($cryptedPassword === $savedPassword){
 			echo "<br> successful login";
-			//$_SESSION['login_user']=$email;
+			$_SESSION['loggedin'] = true;
+			$_SESSION['login_user']=$email;
 			header("Refresh: 5; URL=../start.php");
 		}
 	}
