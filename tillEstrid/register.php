@@ -7,7 +7,6 @@
 <link href="assets/css/start.css" rel="stylesheet" type="text/css">
 <script src = "assets/js/loginValidation.js"></script>
 </head>
-
 <body>
 <div id="mainwrapper">
   <header> 
@@ -16,8 +15,8 @@
   </header>
   <div id="content">
     <section id="mainContent"> 
-      <h1 style="text-align: center">Register Here!</h1>
-		<p style="text-align: center"> Fill in your email-address and your password.</p>
+      <h1>Register Here!</h1>
+		<p> Fill in your email-address and your password.</p>
 		<form name = "inputForm" class= align action="processes/registrationProcess.php" onsubmit = "return validateForm()" method = "post">
 			<br><label for="email">Email-address</label>
 			<br><input type="text" id="email" name="email" placeholder="ex. lisa@gmail.com">
