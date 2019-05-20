@@ -75,7 +75,7 @@ include('processes/session.php');
           <li><a href="frenchi.php" title="Link">Frenchi</a></li>
           <li><a href="#" title="Link">Iberico</a></li>
           <li><a href="#" title="Link">Aaltos</a></li>
-          <li><a href="#" title="Link">Contact us here</a></li>
+          <li><a href="start.php" title="Link">Home</a></li>
         </ul>
       </nav>
     </section>
