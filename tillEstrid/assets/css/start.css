@@ -1,5 +1,4 @@
 #mainwrapper header {
-	/*Header */
 	background-color: #D0CFCF;
 	overflow: auto;
 	font-family: montserrat, sans-serif;
@@ -7,7 +6,6 @@
 	font-weight: 400;
 }
 #mainwrapper header #logo {
-	/* Company Logo */
 	width: 28%;
 	float: left;
 	padding-left: 2%;
@@ -16,7 +14,6 @@
 	color: #929292;
 }
 #mainwrapper header nav {
-	/*Nav bar containing links in header */
 	text-align: right;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -26,27 +23,22 @@
 	color: #929292;
 }
 header nav a {
-	/* Links in header */
 	padding-right: 2%;
 }
 #content #mainContent h1, #content #mainContent h2 {
-	/* Styling for main headings */
 	color: #929292;
 }
 #content #mainContent h3 {
-	/*Captions ot Taglines */
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	color: #929292;
 }
 #content #mainContent #bannerImage {
-	/*Container for main banner image */
 	width: 100%;
 	background-color: #D0CFCF);
 }
 #content #mainContent p {
-	/* All paragraphs under maincontent */
 	color: r#929292;
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
@@ -54,7 +46,6 @@ header nav a {
 	text-align: justify;
 }
 #content #mainContent #authorInfo {
-	/* Author info section */
 	background-color: #D0CFCF;
 }
 #content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
@@ -70,7 +61,6 @@ header nav a {
 	padding-right: 2%;
 }
 footer article {
-	/* Footer articles */
 	width: 46%;
 	float: left;
 	padding-left: 2%;
@@ -82,14 +72,12 @@ footer article {
 	color: #D0CFCF);
 }
 footer article h3 {
-	/* Footer article titles */
 	text-align: center;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 #mainContent {
-	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
 	width: 71%;
 	float: left;
@@ -97,7 +85,6 @@ footer article h3 {
 	padding-top: 41px;
 }
 #mainwrapper #content #sidebar {
-	/* Sidebar*/
 	width: 19%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -107,18 +94,15 @@ footer article h3 {
 	padding-top: 32px;
 }
 #mainwrapper {
-	/* Container of all content */
 	width: 80%;
 	overflow: auto;
 	margin-left: 10%;
 }
 #content #sidebar input {
-	/* Search box in sidebar */
 	width: 98%;
 	height: 32px;
 }
 #content #sidebar #adimage {
-	/* Container for Image in sidebar */
 	width: 100%;
 	background-color: #D0CFCF;
 	margin-top: 46px;
@@ -138,35 +122,29 @@ nav ul li a {
 	text-decoration: none;
 }
 #footerbar {
-	/* Footer bar at the bottom of the page */
 	height: 24px;
 	clear: both;
 	background-color: #D0CFCF;
 	width: 100%;
 	color: white;
-	text-align: center-left;
+	padding-left:45%;
 }
 footer {
-	/* Container for footer artices */
 	width: 71%;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 .notOnDesktop {
-	/*element to be displayed only in mobile view and tabet view */
 	display: none;
 }
 #mainContent #bannerImage img {
-	/* Actual banner image */
 	width: 100%;
 }
 #sidebar #adimage img {
-	/* Image in sidebar */
 	width: 100%;
 	float: left;
 }
 #mainwrapper header nav a {
-	/* Links in header */
 	color: #929292;
 	text-decoration: none;
 }
@@ -193,7 +171,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #D3D3D3;
 }
-/* restaurant page*/
 a:link {
     color: #929292;
 	text-decoration: none;
@@ -208,7 +185,6 @@ a:active {
     color: black;
 }
 
-/*comments section*/
 #commentsSection h3 {
 	font-size: 20px;
 }
@@ -221,4 +197,7 @@ a:active {
 #commentsSection p {
 	border-bottom: 1px solid #e1e1e1;
 }
-
+#commentsSection h4 {
+	font-size: 15px;
+	color: #929292;
+}
