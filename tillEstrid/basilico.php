@@ -13,16 +13,21 @@ include('processes/session.php');
 <body>
 <div id="mainwrapper">
   <header> 
-    <div id="logo"><!-- <img src="logoImage.png" alt="sample logo"> -->RestaurantTips</div>
-    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="#" title="Link">Log out</a> </nav>
+    <div id="logo">Rest</div>
+    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="loggedOut.php" title="Link">Log out</a> </nav>
   </header>
+  <div id="content">
+
     <section id="mainContent"> 
-      <h1><!-- Blog title -->Basilico</h1>
-      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
-      <div id="bannerImage"><img src="assets/img/startbild.jpg" alt=""/></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-      <aside id="authorInfo"> 
+      <h1>Basilico</h1>
+      <h3>An Italian Restaurant</h3>
+      <div id="bannerImage"><img src="assets/img/italian.jpg" alt=""/></div>
+		<p>Next to Linnéträdgården you can find this charming ristorante. Here you get the full and real Italian experience
+		with authentic food and complementary wine in a genuine environment.</p>
+		<p>They have the possibility to take up to 50 guests and can also provide catering on request. Visit the homepage for the restaurant
+		here: <a href="http://www.basilico.se/" title="Link">Basilico</a></p>
+		<p>Read the tips from others below:</p>
+		<aside id="authorInfo"> 
         <h2>Tips</h2>
 					<?php
 				$uname = "dbtrain_1036";
@@ -65,7 +70,7 @@ include('processes/session.php');
       </nav>
     </section>
   </div>
-  <div id="footerbar"><!-- Small footerbar at the bottom --> copyright @ Group 2. All rights reserved</div>
+  <div id="footerbar">copyright @ Group 2. All rights reserved</div>
 </div>
 </body>
 </html>
