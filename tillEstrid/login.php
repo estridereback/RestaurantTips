@@ -15,7 +15,7 @@
     Header starts here. It contains Logo and 3 navigation links. 
     ****************************************************************************-->
     <div id="logo"><!-- <img src="logoImage.png" alt="sample logo"> --><!-- Company Logo text -->Logo</div>
-    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="#" title="Link">Log out</a> </nav>
+    <nav> <a href="register.php" title="Link">Sign up</a> <a href="login.php" title="Link">Log in</a><a href="loggedOut.php" title="Link">Log out</a> </nav>
   </header>
   <div id="content">
     <div class="notOnDesktop"> 
