@@ -23,7 +23,7 @@
 	$login_session = $row['email'];
    
 	if(!isset($_SESSION['login_user'])){
-      header("location:../login.php");
+      header("URL:../login.php");
       die();
 	}
 ?>
